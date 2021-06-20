@@ -1,0 +1,39 @@
+body{
+  font-family: 'Times New Roman', Times, serif;  
+  margin: 0px;
+  
+}
+
+table{
+   max-width: 1080px; 
+   margin: center;
+}
+
+td >a{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(101, 202, 101);
+    margin: 0px;
+    padding: 150px;
+}
+
+nav li{
+    float: left;
+}
+
+nav li >a{
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color:rgb(2, 24, 2);
+}
+
+nav li> a:hover{
+    background-color: rgb(2, 24, 2) ;
+
+}
+
+.active{
+    background-color: rgb(2, 24, 2) ;
+}
+
